@@ -1,0 +1,27 @@
+# Watermark Remover Bot
+
+A free Telegram bot that removes watermarks from images using AI.
+
+## Features
+- 100% free to use
+- Removes text watermarks, logos, and stamps
+- No signup required
+- Simple, clean UI
+
+## How to Use
+1. Send `/start` to the bot
+2. Send any photo with a watermark
+3. Receive the cleaned image
+
+## Deployment
+1. Push to GitHub
+2. Create Web Service on Render
+3. Set `BOT_TOKEN` and `PORT=10000` environment variables
+4. Deploy
+
+## Tech Stack
+- Node.js
+- Telegraf
+- Gradio Client (Hugging Face)
+- SQLite
+- Express

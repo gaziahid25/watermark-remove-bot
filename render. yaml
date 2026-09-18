@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: watermark-bot
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_TOKEN
+        value: 8677191661:AAFd67jxq9RLJmYhgaEZvCQMewsE3zIGqYE
+      - key: PORT
+        value: 10000
